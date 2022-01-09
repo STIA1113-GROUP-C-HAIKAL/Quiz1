@@ -1,0 +1,101 @@
+public class Quiz1 {
+	//Muhammad Haikal
+	//283950
+	//*********************************************
+	//Quiz 1
+	//*********************************************
+	
+	// Number 1
+	// B. .java
+	
+	// Number 2 
+	// C. byte code
+	
+	//Number 3
+	// D. Java Virtual Machine
+	
+	//Number 4
+	int x = 5;
+	int y = 4;
+	int sum = x + y;
+	System.out.println(sum);
+	
+	//Number 5
+	public static void main(String[] args) {}
+	
+	// Number 6
+	// A. //
+	
+	// Number 7
+	// b. 72 = cost;
+	
+	// Number 8
+	// C. Program1
+	
+	// Number 9
+	// C. Variable
+	
+	// Number 10
+	// C. final
+	
+	// Number 11
+	//  A. String
+	
+	// Number 12
+	int a;
+	int b;
+	int x = 10;
+	char ch = 'y';
+	double payRate = 12.50;
+	boolean ans = true;
+	
+	//	Number 13							OUTPUTS
+	System.out.println(13 /4);			=	3
+	System.out.println(2 + 12 / 4);		=	5
+	System.out.println(21 % 5);			=	1
+	System.out.println(3 - 5 % 7);		=	-2
+	System.out.println(17.0 / 4);		=	4.25
+	System.out.println(8 - 5 * 2.0);	=	-2.0
+	System.out.println(14 + 5 % 2 - 3);	=	12
+	System.out.println(15.0 + 3 / 2);	=	16.0
+	
+	// Number 14							OUTPUTS
+	int a = 17;	
+	int b = 15;
+	double x,y;
+	a = a + b / 4;							= 20
+	c = a % 3 + 4;							= 6
+	x = 17 / 3 + 6.5;						= 11.5
+	y = (double) a / 4.0 + 15 % 4 - 3.5;	= 4.5
+	a = 20					x = 11.5
+	b = 15					y = 4.5
+	c = 6
+	
+	// Number 15 
+	int sum =(int) (x + y + z);
+	System.out.println(sum);
+	//OUTPUT
+	// 22
+	
+	// Number 16 
+	// 
+	
+	//Number 17
+	class SampleProgram
+	{
+		public static void main(String[] args) 
+		{
+			System.out.println("Programming is fun! ");
+		}
+	}
+	//OUTPUT
+	// Programming is fun! 
+	
+	//Number 18
+	class FixProgram 
+	{
+		public static void main(String[] args)
+		{
+			System.out.println("Hello World!");
+		}
+	}
