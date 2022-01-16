@@ -1,0 +1,58 @@
+package Quiz;
+
+import java.util.Scanner;
+
+public class Quiz2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//1.    A company decided to give bonus of 5% to employee if his/her year of service is more than 5 years. 
+		//a.    Ask user for their salary and year of service and print the net bonus amount.
+		//b.    Take monthly salary from one employee and print the highest and the lowest salary.
+		//c.    Take input of age of 3 employees and determine oldest and youngest among them.
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int large,small;
+		double employeeSalary;
+		double employeeSalary2 = 500;
+		double employeeSalary3 = 700;
+		
+		int employeeAge[] = new int[3];
+		int n = employeeAge.length;
+		
+		System.out.println("Co-worker 1's salary : RM" + employeeSalary2);
+		System.out.println("Co-worker 2's salary : RM" + employeeSalary3);
+		System.out.println("Please input the salary you have per month : ");
+		employeeSalary = sc.nextDouble();
+		System.out.println("Please input the years you have been working for : ");
+		employeeAge[0] = sc.nextInt();
+		System.out.println("Please input the years your first co-worker have been working for : ");
+		employeeAge[1] = sc.nextInt();
+		System.out.println("Please input the years your second co-worker have been working for : ");
+		employeeAge[2] = sc.nextInt();
+		
+		large=small=employeeAge[0];
+		for(int i=1;i<n; i++) {
+			if(employeeAge[i]>large)
+				large=employeeAge[i];
+			
+			if(employeeAge[i]<small);
+		}
+		
+		System.out.println("The youngest is " + small);
+		System.out.println("The largest is " + large);
+		
+		if(employeeAge[0] > 5) {
+			System.out.println("You got a 5% bonus!");
+			double employeeSalaryTotal = ((employeeSalary * 5)/100) + employeeSalary;
+			System.out.println("Total Salary is" + employeeSalaryTotal);
+		}
+		else {
+			System.out.println("You did not get a 5% bonus.");
+			System.out.println("Total Salary is" + employeeSalary);
+		}
+		sc.close();
+	}
+
+}
