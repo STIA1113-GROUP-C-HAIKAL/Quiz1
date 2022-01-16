@@ -23,7 +23,7 @@ public class printArraylnStars {
 		for(i=0; i<array.length;i++) {
 			int x = array[i] - 1;
 			for(int print=0; print<=x;print++) {
-				System.out.print(" *");
+				System.out.print("*");
 			}
 			System.out.println();
 		}
