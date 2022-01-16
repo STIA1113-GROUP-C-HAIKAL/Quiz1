@@ -1,0 +1,14 @@
+Co-worker 1's salary : RM500.0
+Co-worker 2's salary : RM700.0
+Please input the salary you have per month : 
+450
+Please input the years you have been working for : 
+5
+Please input the years your first co-worker have been working for : 
+5
+Please input the years your second co-worker have been working for : 
+6
+The youngest is 5
+The largest is 6
+You did not get a 5% bonus.
+Total Salary is450.0
